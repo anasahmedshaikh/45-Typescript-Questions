@@ -1,7 +1,7 @@
 // task 11
-let names : string [] = ["Hammad", "Zain", "Eman Abbasi", "Ameen"];
-console.log(names[0]);
-console.log(names[1]);
-console.log(names[2]);
-console.log(names[3]);
+let myFriends : string [] = ["Ayan", "Faizan Lodhi", "Mohad", "Moiz"];
+console.log(myFriends[0]);
+console.log(myFriends[1]);
+console.log(myFriends[2]);
+console.log(myFriends[3]);
 
