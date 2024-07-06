@@ -1,7 +1,9 @@
 //Adding comments
 
-//auther: [Anas Ahmed];
-//date: [Monday , Feburary 12 , 2024]
+// prints the name of author
+auther: [Anas Ahmed];
+date: [Monday , Feburary 12 , 2024]
+console.log(auther);
 
 //task 9: printing my fav number. 
 
