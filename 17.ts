@@ -46,4 +46,4 @@ guestList.forEach(lasttwo => console.log(`Luckly ${lasttwo}, you are still invit
 guestList.pop();
 guestList.pop();
 
-console.log("Ematy  List:", guestList);
+console.log("Empty  List:", guestList);
