@@ -12,8 +12,8 @@ for (let new_user of new_users) {
     
     // Check if the lowercase username exists in lowercase_current_users array
     if (lowercase_current_users.includes(lowercase_new_user)) {
-        console.log(`The username '${new_user}' is not available. Please enter a new username.`);
-    } else {
         console.log(`The username '${new_user}' is available.`);
+    } else {
+        console.log(`The username '${new_user}' is not available. Please enter a new username.`);
     }
 }
