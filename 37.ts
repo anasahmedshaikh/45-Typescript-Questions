@@ -18,5 +18,5 @@ const mediumShirt = make_shirt("medium");
 console.log("Medium Shirt:", mediumShirt);
 
 // Create a shirt of any size with a different message
-const customShirt = make_shirt("small", "Keep Calm and Code On");
+const customShirt = make_shirt("small", "Think Negative and be Positive");
 console.log("Custom Shirt:", customShirt);
