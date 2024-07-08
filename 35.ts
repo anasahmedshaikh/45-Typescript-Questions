@@ -8,8 +8,8 @@ for (let animal of animals) {
 
 // Modify the program to print a statement about each animal
 for (let animal of animals) {
-    console.log(`A ${animal.toLowerCase()} would make a great pet.`);
+    console.log(`A ${animal} would be a great pet for me.`);
 }
 
 // Print a line stating what these animals have in common
-console.log("Any of these animals would make a great pet!");
+console.log("all the animals are pet animals!. and they are so cute also.");
