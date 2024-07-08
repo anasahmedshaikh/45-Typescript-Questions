@@ -1,6 +1,6 @@
 // Define the make_album function
-function make_album(artist: string, title: string, tracks?: number): { artist: string, title: string, tracks?: number } {
-    const album: { artist: string, title: string, tracks?: number } = { artist, title }; // Define album object with explicit type
+function make_album(artist: string, title: string, tracks?: number):{ artist: string, title: string, tracks?: number } {
+    const album:{ artist: string, title: string, tracks?: number } = { artist, title }; // Define album object with explicit type
     if (tracks !== undefined) {
         album.tracks = tracks;
     }
