@@ -1,3 +1,6 @@
+// Array of magician's names
+const magicianNames: string[] = ["Harry potter", "Woldemont", "Scarlet Witch", "Ronn Wislee","Snape","Dumbeldoor"];
+
 // Define the show_magicians function
 function show_magicians(magicians: string[]) {
     for (const magician of magicians) {
@@ -6,16 +9,12 @@ function show_magicians(magicians: string[]) {
 }
 
 // Define the make_great function
-function make_great(magicians: string[]): string[] {
-    const greatMagicians: string[] = [];
-    for (const magician of magicians) {
-        greatMagicians.push(`the Great ${magician}`);
-    }
-    return greatMagicians;
+function make_great(magicians: string[]) {
+    return magicians.map(magician => `the Great ${magician}`);
 }
 
-// Array of magician's names
-const magicianNames: string[] = ["Merlin", "Harry ", "David ", "Jibran ", "Ahmed"];
+// Call make_great function to modify the array and then call show_magicians to display it
+show_magicians(make_great(magicianNames));
 
 // Create a copy of the magicianNames array
 const originalMagicianNames: string[] = magicianNames.slice();
